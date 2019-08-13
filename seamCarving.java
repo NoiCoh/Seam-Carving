@@ -31,7 +31,6 @@ public class seamCarving {
 						image = addKSeams(image, energyType, (int) Math.floor(image.getWidth() * 0.18));
 						widthDiff -= (int) Math.floor(image.getWidth() * 0.18);
 					}
-
 				}
 				image = addKSeams(image, energyType, widthDiff);
 			}
